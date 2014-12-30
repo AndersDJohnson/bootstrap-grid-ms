@@ -17,6 +17,8 @@ bower install --save bootstrap-grid-ms
 In your LESS, import the LESS file:
 
 ```less
+// Relative path to Boostrap LESS file from bootstrap-grid-ms LESS file:
+@bootstrap-grid-ms-bootstrap-path: "../../bootstrap/less/bootstrap";
 @import "bower_components/bootstrap-grid-ms/less/bootstrap-grid-ms";
 ```
 
