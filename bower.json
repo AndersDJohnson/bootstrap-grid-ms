@@ -6,7 +6,7 @@
     "Anders D. Johnson"
   ],
   "description": "Bootstrap Grid Mid-Small (480-767px)",
-  "main": "dist/bootstrap-grid-ms.css",
+  "main": "dist/bootstrap-grid-ms.min.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/adjohnson916/bootstrap-grid-ms.git"

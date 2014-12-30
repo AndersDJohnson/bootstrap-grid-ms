@@ -2,7 +2,7 @@
   "name": "bootstrap-grid-ms",
   "version": "0.0.0",
   "description": "Bootstrap Grid Mid-Small (480-767px)",
-  "main": "dist/bootstrap-grid-ms.css",
+  "main": "dist/bootstrap-grid-ms.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
