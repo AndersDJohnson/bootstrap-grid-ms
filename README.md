@@ -33,7 +33,7 @@ Or use the CSS file:
 
 ## Credit
 
-Originally taken from from: https:gist.github.com/wdollar/135ec3c80faaf5a821b0
+Originally taken from from: https://gist.github.com/wdollar/135ec3c80faaf5a821b0
 
 Original notes:
 
