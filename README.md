@@ -46,6 +46,6 @@ Columns, Offsets, Pushes, Pulls for the Mid-Small layout
 Visibility classes for the Mid-Small layout
 Redefined visibility classes for the Extra Small layout
 
-> See https:github.com/twbs/bootstrap/issues/10203 for more info.
-Forked from: https:gist.github.com/Jakobud/8eca95f07a3b50453cd7
-Original gist: https:gist.github.com/andyl/6360906
+> See https://github.com/twbs/bootstrap/issues/10203 for more info.
+Forked from: https://gist.github.com/Jakobud/8eca95f07a3b50453cd7
+Original gist: https://gist.github.com/andyl/6360906
