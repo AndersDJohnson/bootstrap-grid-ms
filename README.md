@@ -1,6 +1,6 @@
 # Bootstrap Grid Mid-Small
 
-`col-ms-*` - the missing grid set for Bootstrap3, from 480 to 767 pixels.
+`col-ms-*` - the missing grid set for Bootstrap 3, from 480 to 767 pixels.
 
 
 ## Install
