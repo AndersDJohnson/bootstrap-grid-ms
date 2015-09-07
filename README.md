@@ -1,6 +1,6 @@
 # Bootstrap Grid Mid-Small
 
-`col-ms-*` - the missing grid set for Bootstrap 3, from 480 to 767 pixels.
+`col-ms-*` - the missing grid set for Bootstrap 3, below `col-sm-*`, from 480 to 767 pixels.
 
 
 ## Install
@@ -12,9 +12,18 @@ bower install --save bootstrap-grid-ms
 
 ## Use
 
+Use the `col-ms-*` classes. Since Bootstrap seems to rely on CSS order specificity for its grid system, and this CSS is to be loaded after Bootstrap's, the `col-ms-*` classes don't currently apply above 767 pixels, so for that you must also include the corresponding `col-sm-*` rule:
+
+```html
+<div class="col-ms-6 col-sm-6">
+  ...
+</div>
+```
+
+
 ### LESS
 
-In your LESS, import the LESS file:
+In your LESS, somewhere after importing Bootstrap, import the LESS file:
 
 ```less
 // Relative path to Boostrap LESS file from bootstrap-grid-ms LESS file:
@@ -24,7 +33,7 @@ In your LESS, import the LESS file:
 
 ### CSS
 
-Or use the CSS file:
+Or use the CSS file, somewhere after Bootstrap:
 
 ```css
 @import "bower_components/bootstrap-grid-ms/dist/bootstrap-grid-ms.min.css";
