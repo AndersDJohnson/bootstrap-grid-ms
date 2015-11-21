@@ -35,6 +35,12 @@ In your LESS, somewhere after importing Bootstrap, import the LESS file:
 
 ### SCSS/Sass
 
+You will need an SCSS/Sass version of Bootstrap, which is not included in this module's default Bower dependencies.
+
+```
+bower install --save bootstrap-sass
+```
+
 In your SCSS/Sass, somewhere after importing Bootstrap, import the SCSS file:
 
 ```scss
