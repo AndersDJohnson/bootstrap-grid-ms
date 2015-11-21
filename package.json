@@ -4,7 +4,8 @@
   "description": "Bootstrap Grid Mid-Small (480-767px)",
   "main": "dist/bootstrap-grid-ms.min.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt build",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/AndersDJohnson/bootstrap-grid-ms",
   "devDependencies": {
+    "bower": "^1.6.5",
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.11.0",
     "grunt-contrib-less": "^1.0.0",
