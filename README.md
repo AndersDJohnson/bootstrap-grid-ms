@@ -33,6 +33,15 @@ In your LESS, somewhere after importing Bootstrap, import the LESS file:
 @import "bower_components/bootstrap-grid-ms/less/bootstrap-grid-ms";
 ```
 
+### SCSS/Sass
+
+In your SCSS/Sass, somewhere after importing Bootstrap, import the SCSS file:
+
+```scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bower_components/bootstrap-grid-ms/scss/bootstrap-grid-ms";
+```
+
 ### CSS
 
 Or use the CSS file, somewhere after Bootstrap:
