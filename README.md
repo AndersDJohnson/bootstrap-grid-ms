@@ -1,5 +1,7 @@
 # Bootstrap Grid Mid-Small
 
+[![Build Status](https://travis-ci.org/adjohnson916/bootstrap-grid-ms.svg)](https://travis-ci.org/adjohnson916/bootstrap-grid-ms)
+
 `col-ms-*` - the missing grid range in Bootstrap 3, below `col-sm-*` from 480 to 767 pixels.
 
 
