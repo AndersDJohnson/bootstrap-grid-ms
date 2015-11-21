@@ -9,7 +9,7 @@
 .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.3333333;
   border-radius: 6px;
 }
 .btn-group-sm > .btn {
@@ -271,7 +271,7 @@
     display: block !important;
   }
   table.visible-xs {
-    display: table;
+    display: table !important;
   }
   tr.visible-xs {
     display: table-row !important;
@@ -301,7 +301,7 @@
     display: block !important;
   }
   table.visible-ms {
-    display: table;
+    display: table !important;
   }
   tr.visible-ms {
     display: table-row !important;
