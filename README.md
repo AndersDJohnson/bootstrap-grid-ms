@@ -4,6 +4,11 @@
 
 `col-ms-*` - the missing grid range in Bootstrap 3, below `col-sm-*` from 480 to 767 pixels.
 
+## Demo
+
+* https://andrz.me/bootstrap-grid-ms/test/index.html
+* https://andrz.me/bootstrap-grid-ms/test/index-sass.html
+
 
 ## Install
 
