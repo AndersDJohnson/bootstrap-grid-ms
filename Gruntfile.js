@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', 'build');
 
-  grunt.registerTask('build', ['less', 'sass', 'cssmin']);
+  grunt.registerTask('build', ['less', 'sass', 'cssmin', 'template']);
 
   grunt.initConfig({
 
