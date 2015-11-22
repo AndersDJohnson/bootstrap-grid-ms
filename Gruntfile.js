@@ -36,6 +36,37 @@ module.exports = function (grunt) {
           'dist/bootstrap-and-bootstrap-grid-ms.scss.min.css': 'dist/bootstrap-and-bootstrap-grid-ms.scss.css'
         }
       }
+    },
+
+    template: {
+      options: {
+
+      },
+      less: {
+        options: {
+          data: {
+            styles: `
+              <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+              <link rel="stylesheet" href="../dist/bootstrap-grid-ms.css" />
+            `
+          }
+        },
+        files: {
+          'test/index.html': 'test/index.html.tpl'
+        }
+      },
+      sass: {
+        options: {
+          data: {
+            styles: `
+              <link rel="stylesheet" href="../dist/bootstrap-and-bootstrap-grid-ms.scss.css" />
+            `
+          }
+        },
+        files: {
+          'test/index-sass.html': 'test/index.html.tpl'
+        }
+      }
     }
 
   });
