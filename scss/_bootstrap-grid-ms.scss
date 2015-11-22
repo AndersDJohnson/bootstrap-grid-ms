@@ -58,7 +58,7 @@ $screen-xs-max-new: ($screen-ms-min - 1);
 }
 
 // col-ms grid
-@media (min-width: $screen-ms-min) and (max-width: $screen-ms-max) {
+@media (min-width: $screen-ms-min) {
     @include make-grid(ms);
 }
 
