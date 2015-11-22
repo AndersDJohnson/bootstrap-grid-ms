@@ -19,10 +19,10 @@ bower install --save bootstrap-grid-ms
 
 ## Use
 
-Use the `col-ms-*` classes. Since Bootstrap seems to rely on CSS order specificity for its grid system, and this CSS is to be loaded after Bootstrap's, the `col-ms-*` classes don't currently apply above 767 pixels, so for that you must also include the corresponding `col-sm-*` rule:
+Use the `col-ms-*` classes.
 
 ```html
-<div class="col-ms-6 col-sm-6">
+<div class="col-ms-6">
   ...
 </div>
 ```
