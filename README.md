@@ -33,11 +33,16 @@ Use the `col-ms-*` classes.
 In your LESS, somewhere after importing Bootstrap, import the LESS file:
 
 ```less
-// Relative path to Boostrap LESS file from bootstrap-grid-ms LESS file:
-@bootstrap-grid-ms-bootstrap-path: "../../bootstrap/less/bootstrap";
+@import (reference) "bower_components/bootstrap/less/bootstrap";
 @import "bower_components/bootstrap-grid-ms/less/bootstrap-grid-ms";
 ```
 
+Optionally, you may instead define the relative path to the Bootstrap LESS file:
+```less
+// Relative path to Boostrap LESS file from bootstrap-grid-ms LESS file:
+@bootstrap-grid-ms-bootstrap-path "../../bootstrap/less/bootstrap";
+@import "bower_components/bootstrap-grid-ms/less/bootstrap-grid-ms";
+```
 ### SCSS/Sass
 
 You will need an SCSS/Sass version of Bootstrap, which is not included in this module's default Bower dependencies.
