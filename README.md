@@ -30,6 +30,12 @@ Use the `col-ms-*` classes.
 
 ### LESS
 
+You will need Bootstrap LESS installed, e.g. via Bower:
+
+```
+bower install --save bootstrap
+```
+
 In your LESS, somewhere after importing Bootstrap, import the LESS file:
 
 ```less

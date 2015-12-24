@@ -27,10 +27,8 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "~3"
-  },
   "devDependencies": {
+    "bootstrap": "~3",
     "bootstrap-sass": "~3.3.5"
   }
 }
