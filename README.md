@@ -34,7 +34,7 @@ In your LESS, somewhere after importing Bootstrap, import the LESS file:
 
 ```less
 @import "bower_components/bootstrap/less/bootstrap";
-@import "bower_components/bootstrap-grid-ms/less/bootstrap-grid-ms";
+@import "bower_components/bootstrap-grid-ms/less/_bootstrap-grid-ms-core";
 ```
 
 ### SCSS/Sass
