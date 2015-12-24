@@ -11,12 +11,7 @@ module.exports = function (grunt) {
     less: {
       build: {
         files: {
-          'dist/bootstrap-grid-ms.css': 'less/bootstrap-grid-ms.less'
-        },
-        options: {
-          modifyVars: {
-            'bootstrap-grid-ms-bootstrap-path': '"../bower_components/bootstrap/less/bootstrap"'
-          }
+          'dist/bootstrap-grid-ms.css': 'less/bootstrap-grid-ms-build.less'
         }
       }
     },
