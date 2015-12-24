@@ -5,7 +5,6 @@
   "main": "dist/bootstrap-grid-ms.min.css",
   "scripts": {
     "test": "grunt build",
-    "postinstall": "bower install",
     "sync-pkg": "sync-pkg --extend -p \"version\" -p \"!devDep*\" -p \"!dep*\""
   },
   "repository": {
