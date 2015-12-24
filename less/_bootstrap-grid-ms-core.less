@@ -144,3 +144,33 @@
         .responsive-invisibility;
     }
 }
+
+// Mixins
+
+// Generate the mid-small columns
+.make-ms-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  min-height: 1px;
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  @media (min-width: @screen-ms-min) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+.make-ms-column-offset(@columns) {
+  @media (min-width: @screen-ms-min) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.make-ms-column-push(@columns) {
+  @media (min-width: @screen-ms-min) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.make-ms-column-pull(@columns) {
+  @media (min-width: @screen-ms-min) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
