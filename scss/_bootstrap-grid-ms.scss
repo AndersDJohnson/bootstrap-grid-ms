@@ -22,7 +22,7 @@
 //
 
 // Mid-Small breakpoint
-$screen-ms: 480px;
+$screen-ms: 480px !default;
 $screen-ms-min: $screen-ms;
 $screen-ms-max: ($screen-sm-min - 1);
 
