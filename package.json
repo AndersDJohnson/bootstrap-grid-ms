@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-grid-ms",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Bootstrap Grid Mid-Small (480-767px)",
   "main": "dist/bootstrap-grid-ms.min.css",
   "scripts": {
