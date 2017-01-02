@@ -5,7 +5,7 @@
   "authors": [
     "Anders D. Johnson"
   ],
-  "description": "Bootstrap Grid Mid-Small (480-767px)",
+  "description": "Bootstrap Grid Micro-Small (480-767px)",
   "main": [
     "dist/bootstrap-grid-ms.min.css"
   ],
