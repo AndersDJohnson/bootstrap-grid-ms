@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/AndersDJohnson/bootstrap-grid-ms.svg)](https://travis-ci.org/AndersDJohnson/bootstrap-grid-ms)
 
-`col-ms-*` - the missing grid range in Bootstrap 3, below `col-sm-*` from 480 to 767 pixels.
+The missing grid range in Bootstrap 3, below `sm`, from 480 to 767 pixels, redefining `xs` to less than 480 pixels.
 
 ## Demo
 
@@ -19,7 +19,7 @@ bower install --save bootstrap-grid-ms
 
 ## Use
 
-Use the `col-ms-*` classes.
+Use the `col-ms-*`, `hidden-ms`, `visible-ms`, and `visible-ms-*` classes, e.g.:
 
 ```html
 <div class="col-ms-6">
@@ -27,6 +27,7 @@ Use the `col-ms-*` classes.
 </div>
 ```
 
+Using LESS or SCSS/Sass, you can redefine the default Bootstrap breakpoints, and `bootstrap-grid-ms` will respect those.
 
 ### LESS
 
