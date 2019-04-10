@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-grid-ms",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Bootstrap Grid Micro-Small (480-767px)",
   "main": "dist/bootstrap-grid-ms.min.css",
   "scripts": {
@@ -18,7 +18,7 @@
     "css",
     "less"
   ],
-  "author": "Anders D. Johnson",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "bugs": {
     "url": "https://github.com/AndersDJohnson/bootstrap-grid-ms/issues"
   },
