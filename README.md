@@ -6,8 +6,8 @@ The missing grid range in Bootstrap 3, below `sm`, from 480 to 767 pixels, redef
 
 ## Demo
 
-* https://andrz.me/bootstrap-grid-ms/test/index.html
-* https://andrz.me/bootstrap-grid-ms/test/index-sass.html
+* https://andersdjohnson.com/bootstrap-grid-ms/test/index.html
+* https://andersdjohnson.com/bootstrap-grid-ms/test/index-sass.html
 
 
 ## Install
