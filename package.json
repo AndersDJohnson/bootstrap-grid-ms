@@ -33,5 +33,6 @@
     "grunt-template": "^0.2.3",
     "load-grunt-tasks": "^2.0.0",
     "sync-pkg": "^0.6.5"
-  }
+  },
+  "license": "MIT"
 }
